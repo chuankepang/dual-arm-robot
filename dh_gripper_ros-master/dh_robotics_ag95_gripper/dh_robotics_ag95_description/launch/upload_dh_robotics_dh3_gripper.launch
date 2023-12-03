@@ -1,0 +1,7 @@
+<launch>
+    <arg name="test" default="false"/>
+    
+    <param name="robot_description"
+    textfile="$(find dh3_urdf)/urdf/dh3_urdf.urdf" />
+    
+</launch>

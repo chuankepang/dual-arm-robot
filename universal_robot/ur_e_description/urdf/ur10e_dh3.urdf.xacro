@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ur10e_dh3" >
+
+  <!-- common stuff -->
+  <xacro:include filename="$(find ur_e_description)/urdf/common.gazebo.xacro" />
+
+  <!-- ur10e -->
+  <xacro:include filename="$(find ur_e_description)/urdf/ur10e.urdf.xacro" />
+
+  <!-- dh3 -->
+  <xacro:include filename="$(find dh3_urdf)/urdf/dh3.urdf.xacro" />
+
+  <!-- arm -->
+  <xacro:ur10e_robot prefix="" joint_limited="true"/>
+
+  <link name="world" />
+
+  <joint name="world_joint" type="fixed">
+    <parent link="world" />
+    <child link = "base_link" />
+    <origin xyz="0.0 0.2 1.7" rpy="2.36 0.0 3.14" />
+  </joint>
+
+  <!-- end effector -->
+  
+  
+
+  
+
+  <xacro:dh3 prefix="" parent="tool0"/>
+        
+
+
+</robot>
+

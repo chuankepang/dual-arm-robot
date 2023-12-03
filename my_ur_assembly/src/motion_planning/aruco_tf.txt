@@ -1,0 +1,32 @@
+msg: reference_frame: /world ; target_frame: /aruco_marker_frame
+
+msg.pose.Translation.x
+msg.pose.Translation.y
+msg.pose.Translation.z
+
+msg.pose.Rotation.x
+msg.pose.Rotation.y
+msg.pose.Rotation.z
+msg.pose.Rotation.w
+
+
+
+target_msg: reference_frame: /world ; target_frame: /left_tool0
+
+target1_msg.pose.Translation.x=msg.pose.Translation.x-0.15
+target1_msg.pose.Translation.y=msg.pose.Translation.y+0.13
+target1_msg.pose.Translation.z=msg.pose.Translation.z-0.02
+
+target1_msg.pose.Rotation.x=0.509142106367
+target1_msg.pose.Rotation.y=0.497452455736
+target1_msg.pose.Rotation.z=0.506011962131
+target1_msg.pose.Rotation.w=0.487100876603
+
+target2_msg.pose.Translation.x=msg.pose.Translation.x-0.15
+target2_msg.pose.Translation.y=msg.pose.Translation.y-0.15
+target2_msg.pose.Translation.z=msg.pose.Translation.z+0.09
+
+target2_msg.pose.Rotation.x=0.509142106367
+target2_msg.pose.Rotation.y=0.497452455736
+target2_msg.pose.Rotation.z=0.506011962131
+target2_msg.pose.Rotation.w=0.487100876603

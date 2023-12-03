@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GripperTestPython", "GripperTestPython\GripperTestPython.pyproj", "{374842DB-0556-4A9A-B7C7-D9D87292F850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{374842DB-0556-4A9A-B7C7-D9D87292F850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374842DB-0556-4A9A-B7C7-D9D87292F850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2F30597-88BF-419A-ACB3-7459F43031AC}
+	EndGlobalSection
+EndGlobal
